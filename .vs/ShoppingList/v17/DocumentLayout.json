@@ -1,21 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Alan Szymczyk\\source\\repos\\ShoppingList\\",
+  "WorkspaceRootPath": "C:\\Users\\Komputer PC\\Desktop\\Programowanir\\C#\\Project2\\ShoppingList\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C29F5B8C-4807-4D48-9833-7649C2CB5265}|ShoppingList.csproj|c:\\users\\alan szymczyk\\source\\repos\\shoppinglist\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C29F5B8C-4807-4D48-9833-7649C2CB5265}|ShoppingList.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C29F5B8C-4807-4D48-9833-7649C2CB5265}|ShoppingList.csproj|c:\\users\\komputer pc\\desktop\\programowanir\\c#\\project2\\shoppinglist\\controls\\productcontentview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C29F5B8C-4807-4D48-9833-7649C2CB5265}|ShoppingList.csproj|solutionrelative:controls\\productcontentview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C29F5B8C-4807-4D48-9833-7649C2CB5265}|ShoppingList.csproj|c:\\users\\alan szymczyk\\source\\repos\\shoppinglist\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{C29F5B8C-4807-4D48-9833-7649C2CB5265}|ShoppingList.csproj|c:\\users\\komputer pc\\desktop\\programowanir\\c#\\project2\\shoppinglist\\controls\\productcontentview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C29F5B8C-4807-4D48-9833-7649C2CB5265}|ShoppingList.csproj|solutionrelative:controls\\productcontentview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C29F5B8C-4807-4D48-9833-7649C2CB5265}|ShoppingList.csproj|c:\\users\\komputer pc\\desktop\\programowanir\\c#\\project2\\shoppinglist\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C29F5B8C-4807-4D48-9833-7649C2CB5265}|ShoppingList.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C29F5B8C-4807-4D48-9833-7649C2CB5265}|ShoppingList.csproj|c:\\users\\alan szymczyk\\source\\repos\\shoppinglist\\models\\allproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C29F5B8C-4807-4D48-9833-7649C2CB5265}|ShoppingList.csproj|c:\\users\\komputer pc\\desktop\\programowanir\\c#\\project2\\shoppinglist\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C29F5B8C-4807-4D48-9833-7649C2CB5265}|ShoppingList.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C29F5B8C-4807-4D48-9833-7649C2CB5265}|ShoppingList.csproj|c:\\users\\komputer pc\\desktop\\programowanir\\c#\\project2\\shoppinglist\\models\\allproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C29F5B8C-4807-4D48-9833-7649C2CB5265}|ShoppingList.csproj|solutionrelative:models\\allproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C29F5B8C-4807-4D48-9833-7649C2CB5265}|ShoppingList.csproj|c:\\users\\alan szymczyk\\source\\repos\\shoppinglist\\models\\allcategories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C29F5B8C-4807-4D48-9833-7649C2CB5265}|ShoppingList.csproj|c:\\users\\komputer pc\\desktop\\programowanir\\c#\\project2\\shoppinglist\\models\\allcategories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C29F5B8C-4807-4D48-9833-7649C2CB5265}|ShoppingList.csproj|solutionrelative:models\\allcategories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,59 +34,83 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductContentView.xaml",
+              "DocumentMoniker": "C:\\Users\\Komputer PC\\Desktop\\Programowanir\\C#\\Project2\\ShoppingList\\Controls\\ProductContentView.xaml",
+              "RelativeDocumentMoniker": "Controls\\ProductContentView.xaml",
+              "ToolTip": "C:\\Users\\Komputer PC\\Desktop\\Programowanir\\C#\\Project2\\ShoppingList\\Controls\\ProductContentView.xaml",
+              "RelativeToolTip": "Controls\\ProductContentView.xaml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-18T19:17:14.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ProductContentView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Komputer PC\\Desktop\\Programowanir\\C#\\Project2\\ShoppingList\\Controls\\ProductContentView.xaml.cs",
+              "RelativeDocumentMoniker": "Controls\\ProductContentView.xaml.cs",
+              "ToolTip": "C:\\Users\\Komputer PC\\Desktop\\Programowanir\\C#\\Project2\\ShoppingList\\Controls\\ProductContentView.xaml.cs",
+              "RelativeToolTip": "Controls\\ProductContentView.xaml.cs",
+              "ViewState": "AgIAAMUAAAAAAAAAAAAQwMoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T19:16:05.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Alan Szymczyk\\source\\repos\\ShoppingList\\MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Komputer PC\\Desktop\\Programowanir\\C#\\Project2\\ShoppingList\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\Alan Szymczyk\\source\\repos\\ShoppingList\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Komputer PC\\Desktop\\Programowanir\\C#\\Project2\\ShoppingList\\MainPage.xaml.cs",
               "RelativeToolTip": "MainPage.xaml.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAAACQAAAAsAAAA",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAACgAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-18T19:07:21.44Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\Alan Szymczyk\\source\\repos\\ShoppingList\\MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Komputer PC\\Desktop\\Programowanir\\C#\\Project2\\ShoppingList\\MainPage.xaml",
               "RelativeDocumentMoniker": "MainPage.xaml",
-              "ToolTip": "C:\\Users\\Alan Szymczyk\\source\\repos\\ShoppingList\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\Komputer PC\\Desktop\\Programowanir\\C#\\Project2\\ShoppingList\\MainPage.xaml",
               "RelativeToolTip": "MainPage.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-12-18T19:07:18.704Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "AllProducts.cs",
-              "DocumentMoniker": "C:\\Users\\Alan Szymczyk\\source\\repos\\ShoppingList\\Models\\AllProducts.cs",
+              "DocumentMoniker": "C:\\Users\\Komputer PC\\Desktop\\Programowanir\\C#\\Project2\\ShoppingList\\Models\\AllProducts.cs",
               "RelativeDocumentMoniker": "Models\\AllProducts.cs",
-              "ToolTip": "C:\\Users\\Alan Szymczyk\\source\\repos\\ShoppingList\\Models\\AllProducts.cs",
+              "ToolTip": "C:\\Users\\Komputer PC\\Desktop\\Programowanir\\C#\\Project2\\ShoppingList\\Models\\AllProducts.cs",
               "RelativeToolTip": "Models\\AllProducts.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T19:06:50.148Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-18T19:06:50.148Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "AllCategories.cs",
-              "DocumentMoniker": "C:\\Users\\Alan Szymczyk\\source\\repos\\ShoppingList\\Models\\AllCategories.cs",
+              "DocumentMoniker": "C:\\Users\\Komputer PC\\Desktop\\Programowanir\\C#\\Project2\\ShoppingList\\Models\\AllCategories.cs",
               "RelativeDocumentMoniker": "Models\\AllCategories.cs",
-              "ToolTip": "C:\\Users\\Alan Szymczyk\\source\\repos\\ShoppingList\\Models\\AllCategories.cs",
+              "ToolTip": "C:\\Users\\Komputer PC\\Desktop\\Programowanir\\C#\\Project2\\ShoppingList\\Models\\AllCategories.cs",
               "RelativeToolTip": "Models\\AllCategories.cs",
               "ViewState": "AQIAABYAAAAAAAAAAAAUwCkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T19:06:09.985Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-18T19:06:09.985Z"
             }
           ]
         }

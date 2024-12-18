@@ -1,26 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Komputer PC\\Desktop\\ShoppingList\\",
+  "WorkspaceRootPath": "C:\\Users\\Alan Szymczyk\\source\\repos\\ShoppingList\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C29F5B8C-4807-4D48-9833-7649C2CB5265}|ShoppingList.csproj|c:\\users\\komputer pc\\desktop\\shoppinglist\\controls\\productcontentview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C29F5B8C-4807-4D48-9833-7649C2CB5265}|ShoppingList.csproj|solutionrelative:controls\\productcontentview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C29F5B8C-4807-4D48-9833-7649C2CB5265}|ShoppingList.csproj|c:\\users\\alan szymczyk\\source\\repos\\shoppinglist\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C29F5B8C-4807-4D48-9833-7649C2CB5265}|ShoppingList.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C29F5B8C-4807-4D48-9833-7649C2CB5265}|ShoppingList.csproj|c:\\users\\komputer pc\\desktop\\shoppinglist\\controls\\storereadyproductcontentview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C29F5B8C-4807-4D48-9833-7649C2CB5265}|ShoppingList.csproj|solutionrelative:controls\\storereadyproductcontentview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{C29F5B8C-4807-4D48-9833-7649C2CB5265}|ShoppingList.csproj|c:\\users\\alan szymczyk\\source\\repos\\shoppinglist\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C29F5B8C-4807-4D48-9833-7649C2CB5265}|ShoppingList.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C29F5B8C-4807-4D48-9833-7649C2CB5265}|ShoppingList.csproj|c:\\users\\komputer pc\\desktop\\shoppinglist\\views\\forstorepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C29F5B8C-4807-4D48-9833-7649C2CB5265}|ShoppingList.csproj|solutionrelative:views\\forstorepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{C29F5B8C-4807-4D48-9833-7649C2CB5265}|ShoppingList.csproj|c:\\users\\alan szymczyk\\source\\repos\\shoppinglist\\models\\allproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C29F5B8C-4807-4D48-9833-7649C2CB5265}|ShoppingList.csproj|solutionrelative:models\\allproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C29F5B8C-4807-4D48-9833-7649C2CB5265}|ShoppingList.csproj|c:\\users\\komputer pc\\desktop\\shoppinglist\\controls\\productcontentview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C29F5B8C-4807-4D48-9833-7649C2CB5265}|ShoppingList.csproj|solutionrelative:controls\\productcontentview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C29F5B8C-4807-4D48-9833-7649C2CB5265}|ShoppingList.csproj|c:\\users\\komputer pc\\desktop\\shoppinglist\\controls\\categorycontentview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C29F5B8C-4807-4D48-9833-7649C2CB5265}|ShoppingList.csproj|solutionrelative:controls\\categorycontentview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{C29F5B8C-4807-4D48-9833-7649C2CB5265}|ShoppingList.csproj|c:\\users\\alan szymczyk\\source\\repos\\shoppinglist\\models\\allcategories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C29F5B8C-4807-4D48-9833-7649C2CB5265}|ShoppingList.csproj|solutionrelative:models\\allcategories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,72 +25,59 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 512,
+          "DockedWidth": 200,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductContentView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Komputer PC\\Desktop\\ShoppingList\\Controls\\ProductContentView.xaml.cs",
-              "RelativeDocumentMoniker": "Controls\\ProductContentView.xaml.cs",
-              "ToolTip": "C:\\Users\\Komputer PC\\Desktop\\ShoppingList\\Controls\\ProductContentView.xaml.cs",
-              "RelativeToolTip": "Controls\\ProductContentView.xaml.cs",
-              "ViewState": "AgIAANcAAAAAAAAAAAAswPAAAAABAAAAAAAAAA==",
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Alan Szymczyk\\source\\repos\\ShoppingList\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Alan Szymczyk\\source\\repos\\ShoppingList\\MainPage.xaml.cs",
+              "RelativeToolTip": "MainPage.xaml.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAACQAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T18:52:17.393Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ForStorePage.xaml",
-              "DocumentMoniker": "C:\\Users\\Komputer PC\\Desktop\\ShoppingList\\Views\\ForStorePage.xaml",
-              "RelativeDocumentMoniker": "Views\\ForStorePage.xaml",
-              "ToolTip": "C:\\Users\\Komputer PC\\Desktop\\ShoppingList\\Views\\ForStorePage.xaml",
-              "RelativeToolTip": "Views\\ForStorePage.xaml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-18T18:37:24.81Z",
+              "WhenOpened": "2024-12-18T19:07:21.44Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "StoreReadyProductContentView.xaml",
-              "DocumentMoniker": "C:\\Users\\Komputer PC\\Desktop\\ShoppingList\\Controls\\StoreReadyProductContentView.xaml",
-              "RelativeDocumentMoniker": "Controls\\StoreReadyProductContentView.xaml",
-              "ToolTip": "C:\\Users\\Komputer PC\\Desktop\\ShoppingList\\Controls\\StoreReadyProductContentView.xaml",
-              "RelativeToolTip": "Controls\\StoreReadyProductContentView.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Alan Szymczyk\\source\\repos\\ShoppingList\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MainPage.xaml",
+              "ToolTip": "C:\\Users\\Alan Szymczyk\\source\\repos\\ShoppingList\\MainPage.xaml",
+              "RelativeToolTip": "MainPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-18T18:37:06.463Z",
+              "WhenOpened": "2024-12-18T19:07:18.704Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CategoryContentView.xaml",
-              "DocumentMoniker": "C:\\Users\\Komputer PC\\Desktop\\ShoppingList\\Controls\\CategoryContentView.xaml",
-              "RelativeDocumentMoniker": "Controls\\CategoryContentView.xaml",
-              "ToolTip": "C:\\Users\\Komputer PC\\Desktop\\ShoppingList\\Controls\\CategoryContentView.xaml",
-              "RelativeToolTip": "Controls\\CategoryContentView.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-18T18:36:23.456Z",
+              "DocumentIndex": 2,
+              "Title": "AllProducts.cs",
+              "DocumentMoniker": "C:\\Users\\Alan Szymczyk\\source\\repos\\ShoppingList\\Models\\AllProducts.cs",
+              "RelativeDocumentMoniker": "Models\\AllProducts.cs",
+              "ToolTip": "C:\\Users\\Alan Szymczyk\\source\\repos\\ShoppingList\\Models\\AllProducts.cs",
+              "RelativeToolTip": "Models\\AllProducts.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T19:06:50.148Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ProductContentView.xaml",
-              "DocumentMoniker": "C:\\Users\\Komputer PC\\Desktop\\ShoppingList\\Controls\\ProductContentView.xaml",
-              "RelativeDocumentMoniker": "Controls\\ProductContentView.xaml",
-              "ToolTip": "C:\\Users\\Komputer PC\\Desktop\\ShoppingList\\Controls\\ProductContentView.xaml",
-              "RelativeToolTip": "Controls\\ProductContentView.xaml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAAcAAABWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-18T18:20:21.543Z",
+              "Title": "AllCategories.cs",
+              "DocumentMoniker": "C:\\Users\\Alan Szymczyk\\source\\repos\\ShoppingList\\Models\\AllCategories.cs",
+              "RelativeDocumentMoniker": "Models\\AllCategories.cs",
+              "ToolTip": "C:\\Users\\Alan Szymczyk\\source\\repos\\ShoppingList\\Models\\AllCategories.cs",
+              "RelativeToolTip": "Models\\AllCategories.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAUwCkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T19:06:09.985Z",
               "EditorCaption": ""
             }
           ]

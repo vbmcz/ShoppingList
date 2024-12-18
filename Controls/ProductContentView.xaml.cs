@@ -200,7 +200,18 @@ public partial class ProductContentView : ContentView
 
 	private void Entry_Changed(object sender, TextChangedEventArgs e)
 	{
+		ErrorLabel.Text = "";
 		var entry = (Entry)sender;
+
+		try
+		{
+			int.Parse(entry.Text);
+		}
+		catch (Exception)
+		{
+			ErrorLabel.Text = "Set a correct value for amount!";
+			return;
+		}
 		var doc = XDocument.Load(Models.AllProducts.filePath);
 		bool found = false;
 		foreach (var node in doc.Descendants())

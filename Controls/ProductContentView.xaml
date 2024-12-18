@@ -33,6 +33,9 @@
         </HorizontalStackLayout>
 
         <Label
+            x:Name="ErrorLabel"/>
+
+        <Label
             Text="{Binding ProductCategory}"/>
 
         <HorizontalStackLayout>

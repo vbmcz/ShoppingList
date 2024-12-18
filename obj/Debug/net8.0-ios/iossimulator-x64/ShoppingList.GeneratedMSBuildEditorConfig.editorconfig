@@ -12,77 +12,77 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ShoppingList
-build_property.ProjectDir = C:\Users\Alan Szymczyk\source\repos\ShoppingList\
+build_property.ProjectDir = C:\Users\Komputer PC\Desktop\Programowanir\C#\Project2\ShoppingList\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/Alan Szymczyk/source/repos/ShoppingList/App.xaml]
+[C:/Users/Komputer PC/Desktop/Programowanir/C\#/Project2/ShoppingList/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ShoppingList.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/Alan Szymczyk/source/repos/ShoppingList/AppShell.xaml]
+[C:/Users/Komputer PC/Desktop/Programowanir/C\#/Project2/ShoppingList/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ShoppingList.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/Alan Szymczyk/source/repos/ShoppingList/Controls/CategoryContentView.xaml]
+[C:/Users/Komputer PC/Desktop/Programowanir/C\#/Project2/ShoppingList/Controls/CategoryContentView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ShoppingList.Controls.CategoryContentView.xaml
 build_metadata.AdditionalFiles.TargetPath = Controls\CategoryContentView.xaml
 build_metadata.AdditionalFiles.RelativePath = Controls\CategoryContentView.xaml
 
-[C:/Users/Alan Szymczyk/source/repos/ShoppingList/Controls/ProductContentView.xaml]
+[C:/Users/Komputer PC/Desktop/Programowanir/C\#/Project2/ShoppingList/Controls/ProductContentView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ShoppingList.Controls.ProductContentView.xaml
 build_metadata.AdditionalFiles.TargetPath = Controls\ProductContentView.xaml
 build_metadata.AdditionalFiles.RelativePath = Controls\ProductContentView.xaml
 
-[C:/Users/Alan Szymczyk/source/repos/ShoppingList/Controls/StoreReadyProductContentView.xaml]
+[C:/Users/Komputer PC/Desktop/Programowanir/C\#/Project2/ShoppingList/Controls/StoreReadyProductContentView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ShoppingList.Controls.StoreReadyProductContentView.xaml
 build_metadata.AdditionalFiles.TargetPath = Controls\StoreReadyProductContentView.xaml
 build_metadata.AdditionalFiles.RelativePath = Controls\StoreReadyProductContentView.xaml
 
-[C:/Users/Alan Szymczyk/source/repos/ShoppingList/MainPage.xaml]
+[C:/Users/Komputer PC/Desktop/Programowanir/C\#/Project2/ShoppingList/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ShoppingList.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/Alan Szymczyk/source/repos/ShoppingList/Resources/Styles/Colors.xaml]
+[C:/Users/Komputer PC/Desktop/Programowanir/C\#/Project2/ShoppingList/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ShoppingList.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/Alan Szymczyk/source/repos/ShoppingList/Resources/Styles/Styles.xaml]
+[C:/Users/Komputer PC/Desktop/Programowanir/C\#/Project2/ShoppingList/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ShoppingList.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/Alan Szymczyk/source/repos/ShoppingList/Views/AddCategoryPage.xaml]
+[C:/Users/Komputer PC/Desktop/Programowanir/C\#/Project2/ShoppingList/Views/AddCategoryPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ShoppingList.Views.AddCategoryPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\AddCategoryPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\AddCategoryPage.xaml
 
-[C:/Users/Alan Szymczyk/source/repos/ShoppingList/Views/AddProductPage.xaml]
+[C:/Users/Komputer PC/Desktop/Programowanir/C\#/Project2/ShoppingList/Views/AddProductPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ShoppingList.Views.AddProductPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\AddProductPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\AddProductPage.xaml
 
-[C:/Users/Alan Szymczyk/source/repos/ShoppingList/Views/CategoriesPage.xaml]
+[C:/Users/Komputer PC/Desktop/Programowanir/C\#/Project2/ShoppingList/Views/CategoriesPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ShoppingList.Views.CategoriesPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\CategoriesPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\CategoriesPage.xaml
 
-[C:/Users/Alan Szymczyk/source/repos/ShoppingList/Views/ForStorePage.xaml]
+[C:/Users/Komputer PC/Desktop/Programowanir/C\#/Project2/ShoppingList/Views/ForStorePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ShoppingList.Views.ForStorePage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\ForStorePage.xaml
