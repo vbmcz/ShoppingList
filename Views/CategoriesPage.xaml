@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ShoppingList.Views.CategoriesPage"
+             Title="CategoriesPage"
+             xmlns:controls="clr-namespace:ShoppingList.Controls"
+             xmlns:models="clr-namespace:ShoppingList.Models">
+
+    <ContentPage.BindingContext>
+        <models:AllCategories/>
+    </ContentPage.BindingContext>
+    <VerticalStackLayout>
+        <ScrollView>
+            <CollectionView x:Name="categories" ItemsSource="{Binding Categories}">
+                <CollectionView.EmptyView>
+                    <Label Text="Brak kategorii do wyświetlenia"/>
+                </CollectionView.EmptyView>
+                <CollectionView.ItemsLayout>
+                    <LinearItemsLayout Orientation="Vertical" ItemSpacing="10"/>
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <controls:CategoryContentView
+                            CategoryName="{Binding Name}">
+                        </controls:CategoryContentView>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </ScrollView>
+
+    </VerticalStackLayout>
+</ContentPage>

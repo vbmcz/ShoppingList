@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Categories>
+  <Category>
+    <CategoryID>1</CategoryID>
+    <CategoryName>Nabiał</CategoryName>
+  </Category>
+  <Category>
+    <CategoryID>2</CategoryID>
+    <CategoryName>Mięso</CategoryName>
+  </Category>
+</Categories>

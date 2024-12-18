@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ShoppingList.Controls.ProductContentView"
+             x:Name="this">
+
+    <VerticalStackLayout BindingContext="{x:Reference this}" HorizontalOptions="Center">
+
+        <Label
+            Text="{Binding ProductName}"/>
+
+        <HorizontalStackLayout>
+            <Entry
+                Text="{Binding ProductAmount}"
+                TextChanged="Entry_Changed"
+                HeightRequest="0.5"/>
+
+            <Label
+                Margin="5, 10, 0, 0"
+                HorizontalOptions="EndAndExpand"
+                Text="{Binding ProductUnit}"/>
+
+            <Button
+                Margin="10, 0, 0, 0"
+                Text="+"
+                Clicked="Increment_Clicked"/>
+
+            <Button
+                Margin="10, 0, 0, 0"
+                Text="-"
+                Clicked="Decrement_Clicked"/>
+        </HorizontalStackLayout>
+
+        <Label
+            Text="{Binding ProductCategory}"/>
+
+        <HorizontalStackLayout>
+            <Label
+                Margin="0, 10, 0, 0"
+                Text="Bought"/>
+
+            <CheckBox
+                IsChecked="{Binding ProductIsBought}"
+                CheckedChanged="Bought_Changed"/>
+
+            <Label
+                Margin="0, 10, 0, 0"
+                Text="Optional"/>
+
+            <CheckBox
+                IsChecked="{Binding ProductIsOptional}"
+                CheckedChanged="Optional_Changed"/>
+        </HorizontalStackLayout>
+
+        <Button
+            HorizontalOptions="Start"
+            WidthRequest="200"
+            Text="Delete product"
+            Clicked="Delete_Clicked"/>
+
+    </VerticalStackLayout>
+</ContentView>

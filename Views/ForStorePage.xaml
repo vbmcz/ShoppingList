@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ShoppingList.Views.ForStorePage"
+             Title="ForStorePage"
+             xmlns:models="clr-namespace:ShoppingList.Models"
+             xmlns:controls="clr-namespace:ShoppingList.Controls">
+
+    <ScrollView>
+        
+
+        <StackLayout  HorizontalOptions="Center">
+            <HorizontalStackLayout>
+                <Button
+                    WidthRequest="200"
+                    Text="Sort by amount"
+                    Clicked="Amount_Clicked"/>
+
+                <Button
+                    WidthRequest="200"
+                    Text="Sort by name"
+                    Clicked="Name_Clicked"/>
+            </HorizontalStackLayout>
+
+            <CollectionView x:Name="productsCollection">
+                <CollectionView.EmptyView>
+                    <Label Text="No items to display!"/>
+                </CollectionView.EmptyView>
+                <CollectionView.ItemsLayout>
+                    <LinearItemsLayout Orientation="Vertical" ItemSpacing="10"/>
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <controls:StoreReadyProductContentView
+                            ProductID="{Binding Id}"
+                            ProductName="{Binding Name}"
+                            ProductAmount="{Binding Amount}"
+                            ProductUnit="{Binding Unit}"
+                            ProductIsBought="{Binding IsBought}">
+                        </controls:StoreReadyProductContentView>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

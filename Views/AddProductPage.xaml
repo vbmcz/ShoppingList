@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:models="clr-namespace:ShoppingList.Models"
+             x:Class="ShoppingList.Views.AddProductPage"
+             Title="AddProductPage">
+
+    <ContentPage.BindingContext>
+        <models:AllCategories/>
+    </ContentPage.BindingContext>
+    
+    <VerticalStackLayout>
+
+        <Entry
+        Placeholder="Set product name"
+        x:Name="ProductNameEntry"
+        Margin="20"/>
+
+        
+        <Picker x:Name="ProductUnitPicker"
+            Title="Select product unit"
+            Margin="20">
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>kg</x:String>
+                    <x:String>g</x:String>
+                    <x:String>l</x:String>
+                    <x:String>ml</x:String>
+                    <x:String>pcs</x:String>
+                </x:Array>
+            </Picker.ItemsSource>
+        </Picker>
+
+        <Entry
+            Placeholder="Set product amount"
+            x:Name="ProductAmountEntry"
+            Margin="20"/>
+
+        <Picker x:Name="ProductCategoryPicker"
+            Title="Select product's category"
+            Margin="20">
+        </Picker>
+        
+        <Button
+            Text="Add product"
+            Clicked="Add_Clicked"/>
+
+        <Label
+            Text=""
+            x:Name="ErrorLabel"/>
+    </VerticalStackLayout>
+</ContentPage>

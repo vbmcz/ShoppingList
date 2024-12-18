@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Products>
+  <Product>
+    <ProductID>4</ProductID>
+    <ProductName>z</ProductName>
+    <ProductAmount>12</ProductAmount>
+    <ProductUnit>g</ProductUnit>
+    <ProductBought>False</ProductBought>
+    <ProductOptional>False</ProductOptional>
+    <ProductCategory>Nabiał</ProductCategory>
+  </Product>
+  <Product>
+    <ProductID>3</ProductID>
+    <ProductName>MAA</ProductName>
+    <ProductAmount>20</ProductAmount>
+    <ProductUnit>pcs</ProductUnit>
+    <ProductBought>False</ProductBought>
+    <ProductOptional>False</ProductOptional>
+    <ProductCategory>Mięso</ProductCategory>
+  </Product>
+  <Product>
+    <ProductID>1</ProductID>
+    <ProductName>Ser</ProductName>
+    <ProductAmount>300</ProductAmount>
+    <ProductUnit>g</ProductUnit>
+    <ProductBought>False</ProductBought>
+    <ProductOptional>False</ProductOptional>
+    <ProductCategory>Nabiał</ProductCategory>
+  </Product>
+  <Product>
+    <ProductID>2</ProductID>
+    <ProductName>A</ProductName>
+    <ProductAmount>1</ProductAmount>
+    <ProductUnit>l</ProductUnit>
+    <ProductBought>True</ProductBought>
+    <ProductOptional>False</ProductOptional>
+    <ProductCategory>Nabiał</ProductCategory>
+  </Product>
+</Products>

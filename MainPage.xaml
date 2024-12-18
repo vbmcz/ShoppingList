@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ShoppingList.MainPage"
+             xmlns:controls="clr-namespace:ShoppingList.Controls"
+             xmlns:models="clr-namespace:ShoppingList.Models">
+
+
+    <ContentPage.BindingContext>
+        <models:AllProducts/>
+    </ContentPage.BindingContext>
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Add Product" Clicked="Add_Clicked" IconImageSource="{FontImage Glyph='+', Color=BlanchedAlmond}"/>
+        <ToolbarItem Text="Add Category" Clicked="Add_Cat_Clicked" IconImageSource="{FontImage Glyph='+',Color=CadetBlue}"/>
+    </ContentPage.ToolbarItems>
+
+    <ScrollView>
+        <StackLayout>
+            <HorizontalStackLayout HorizontalOptions="CenterAndExpand">
+                <Button
+                    Text="Export shopping list"
+                    Clicked="Export_Clicked"
+                    WidthRequest="400"/>
+
+                <Button
+                    Text="Import shopping list"
+                    Clicked="Import_Clicked"
+                    WidthRequest="400"/>
+            </HorizontalStackLayout>
+
+            <CollectionView x:Name="productsCollection" ItemsSource="{Binding Products}" IsVisible="{Binding isVisible}">
+                <CollectionView.EmptyView>
+                    <Label Text="No items to display!"/>
+                </CollectionView.EmptyView>
+                <CollectionView.ItemsLayout>
+                    <LinearItemsLayout Orientation="Vertical" ItemSpacing="10"/>
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <controls:ProductContentView
+                            ProductID="{Binding Id}"
+                            ProductName="{Binding Name}"
+                            ProductAmount="{Binding Amount}"
+                            ProductCategory="{Binding Category}"
+                            ProductUnit="{Binding Unit}"
+                            ProductIsBought="{Binding IsBought}"
+                            ProductIsOptional="{Binding IsOptional}">
+                        </controls:ProductContentView>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

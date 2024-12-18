@@ -1,0 +1,1 @@
+C:\Users\Komputer PC\Desktop\ShoppingList\ShoppingList.csproj;x64

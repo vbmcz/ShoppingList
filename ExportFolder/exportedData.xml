@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Products>
+  <Product>
+    <ProductID>1</ProductID>
+    <ProductName>Ser</ProductName>
+    <ProductAmount>300</ProductAmount>
+    <ProductUnit>g</ProductUnit>
+    <ProductBought>false</ProductBought>
+    <ProductCategory>Nabiał</ProductCategory>
+  </Product>
+  <Product>
+    <ProductID>1</ProductID>
+    <ProductName>Ser</ProductName>
+    <ProductAmount>300</ProductAmount>
+    <ProductUnit>g</ProductUnit>
+    <ProductBought>false</ProductBought>
+    <ProductCategory>Nabiał</ProductCategory>
+  </Product>
+</Products>
