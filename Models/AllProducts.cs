@@ -6,10 +6,10 @@ namespace ShoppingList.Models
 	internal class AllProducts
 	{
 		// Dla lapka:
-		//public static string filePath = @"C:\Users\Alan Szymczyk\Desktop\ShoppingList\Resources\Raw\ProductsStorage.xml";
+		public static string filePath = @"C:\Users\Alan Szymczyk\source\repos\ShoppingList\Resources\Raw\ProductsStorage.xml";
 
 		// Dla kompa:
-		public static string filePath = @"C:\Users\Komputer PC\Desktop\ShoppingList\Resources\Raw\ProductsStorage.xml";
+		//public static string filePath = @"C:\Users\Komputer PC\Desktop\ShoppingList\Resources\Raw\ProductsStorage.xml";
 		public bool isVisible = false;
 		public ObservableCollection<Product> Products { get; set; } = [];
 

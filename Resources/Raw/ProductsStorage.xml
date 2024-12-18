@@ -1,14 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Products>
-  <Product>
-    <ProductID>1</ProductID>
-    <ProductName>Ser</ProductName>
-    <ProductAmount>300</ProductAmount>
-    <ProductUnit>g</ProductUnit>
-    <ProductBought>False</ProductBought>
-    <ProductOptional>False</ProductOptional>
-    <ProductCategory>Nabiał</ProductCategory>
-  </Product>
   <Product>
     <ProductID>2</ProductID>
     <ProductName>A</ProductName>
@@ -32,7 +23,7 @@
     <ProductName>MAA</ProductName>
     <ProductAmount>20</ProductAmount>
     <ProductUnit>pcs</ProductUnit>
-    <ProductBought>True</ProductBought>
+    <ProductBought>False</ProductBought>
     <ProductOptional>False</ProductOptional>
     <ProductCategory>Mięso</ProductCategory>
   </Product>

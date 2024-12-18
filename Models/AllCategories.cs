@@ -11,10 +11,10 @@ namespace ShoppingList.Models
 	internal class AllCategories
 	{
 		// Dla lapka:
-		//public static string filePath = @"C:\Users\Alan Szymczyk\Desktop\ShoppingList\Resources\Raw\CategoriesStorage.xml";
+		public static string filePath = @"C:\Users\Alan Szymczyk\source\repos\ShoppingList\Resources\Raw\CategoriesStorage.xml";
 
 		// Dla kompa:
-		public static string filePath = @"C:\Users\Komputer PC\Desktop\ShoppingList\Resources\Raw\CategoriesStorage.xml";
+		//public static string filePath = @"C:\Users\Komputer PC\Desktop\ShoppingList\Resources\Raw\CategoriesStorage.xml";
 		public ObservableCollection<Category> Categories { get; set; } = [];
 
 		public AllCategories() =>

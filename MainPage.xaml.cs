@@ -34,7 +34,7 @@ namespace ShoppingList
 		{
 			string fileContent = File.ReadAllText(Models.AllProducts.filePath);
 
-			File.WriteAllText(@"C:\Users\Komputer PC\Desktop\ShoppingList\ExportFolder\exportedData.xml", fileContent);
+			File.WriteAllText(@"C:\Users\Alan Szymczyk\source\repos\ShoppingList\ExportFolder\exportedData.xml", fileContent);
 
 			await DisplayAlert("Success", "Succesfully exported data to: 'ExportsFolder\\exportedData.xml'!", "Ok");
 
@@ -51,7 +51,7 @@ namespace ShoppingList
 				return;
 
 			File.WriteAllText(Models.AllProducts.filePath ,File.ReadAllText(result.FullPath.ToString()).ToString());
-			await DisplayAlert("Success", $"Successfully imported data from {result.FullPath.ToString()}!", "Ok");
+			await DisplayAlert("Success", $"Successfully imported data from {result.FullPath}!", "Ok");
 
 			var products = new AllProducts();
 			productsCollection.ItemsSource = products.Products;
